@@ -1,0 +1,33 @@
+{
+  "name": "x-katex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoChick/x-katex.git"
+  },
+  "author": "Dueno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anoChick/x-katex/issues"
+  },
+  "homepage": "https://github.com/anoChick/x-katex#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "katex": "^0.7.1",
+    "lodash": "^4.17.4",
+    "webcomponents.js": "^0.7.24"
+  }
+}
